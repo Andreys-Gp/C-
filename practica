@@ -1,0 +1,62 @@
+using System;
+
+namespace Recorrer_Numero
+{
+    class Program{
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Bienvenido a mi siclo While");
+
+
+            //programa 1
+
+            int i = 1;
+             while (i<=200) {
+                 Console.WriteLine("numero"+i);
+                 i++;
+             }
+             Console.ReadLine();
+           
+
+
+            //programa 2 
+            /* for (int i=1; i<=50; i++) {
+
+                 Console.WriteLine("el numero es:"+i+" ");
+                 i++;
+             }
+             Console.ReadLine(); */
+
+            //programa  precio producto  3
+
+           /* Console.WriteLine("El precio de producto:");
+            Double precio = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("forma de pago /efectivo o tarjeta/");
+            //metodo especial para ignorar minunsculas y mayusculas tolower ()
+            String forma = Console.ReadLine().ToLower();
+
+            if (forma.Equals("tarjeta",StringComparison.InvariantCultureIgnoreCase) ) {
+                Console.WriteLine("introduzca numero de la targeta:");
+                //too int numero de digitos toma de memoria la variable
+               int numero_cuenta = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("precio del prodcucto es:" + precio + " forma de pago tarjeta" +
+                    "numero de cuenta" + numero_cuenta );
+            } 
+
+            else if(forma.Equals("efectivo",StringComparison.InvariantCultureIgnoreCase))
+            {
+                Console.WriteLine("precio producto es:" + precio + "forma de pago efectivo  "
+                    + "  pago exitoso" );
+            }
+            else
+            {
+                Console.WriteLine("forma de pago no exitosa");
+            }
+
+            Console.ReadLine();
+           */
+
+        }
+    }
+}
